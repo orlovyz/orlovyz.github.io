@@ -1,0 +1,309 @@
+
+  html{
+     box-sizing: border-box;
+  }
+  *,*::before, *::after{
+     box-sizing: inherit;
+  }
+
+  body{
+    font-family: 'Quicksand', sans-serif;
+     font-style: normal;
+     font-size: 20px;
+     line-height: 1.2;
+     font-weight: 400;
+     color:#FFFFFF;
+     background-color: #303030;
+  }
+  .wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #303030;
+}
+  /*Header styles start*/
+  .header__wrapper{
+     display:flex;
+     flex-wrap:wrap;
+     align-items:flex-wrap;
+     justify-content: space-between;
+     padding-top: 37px;
+  }
+  .header__list{
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 0px;
+     margin-right: 50px;
+  }
+  .header__item{
+     margin-right: 52px;
+  }
+  .header{
+    position:static;
+     top: 0;
+     left:0;
+     width: 100%;
+     background-color: #303030;
+  }
+.header__link{
+font-size: 20px;
+line-height: 28px;
+color: white;
+text-decoration: none;
+}
+.header__link:hover, .header__link:focus, .header__link:active{
+    opacity: .75;
+   color: #FFFFFF;
+}
+/*Header styles end*/
+
+
+
+/*Intro styles start*/
+.intro {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    margin-top: 0px; 
+    background-color: #303030;
+}
+.bob{
+    text-align: left;
+    font-size: 42px;
+    margin-top: 25px;
+}
+.intro__title{
+    text-align: left;
+    font-size: 60px;
+    margin-top: 50px;
+}
+.intro__subtitle{
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+    font-size: 24px;
+    margin-left: 0px;
+    margin-top: 42px;
+    width: 500px;
+    text-indent: 10px;
+    border-left: 2px solid #FFFFFF;
+    padding-left: 20px;
+    letter-spacing: 0.065em;
+}
+.avatar{
+    width: 600px;
+    height: 445px;
+    margin-top: -425px;
+    margin-left: 750px;
+}
+
+
+
+/*Intro styles end*/
+
+/*About me*/
+
+.About__me{
+    max-width: 1440px;
+    margin: auto;
+    height: 500px;
+   
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 60px;
+}
+
+.aboutpic {
+    margin-top: -50px;
+    width: 500px;
+    height: 554px;
+    
+}
+
+.about__text {
+    text-align: justify;
+    font-size: 24px;
+    margin-left: 700px;
+    margin-top: -400px;
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    text-indent: 60px;
+    border-right: 2px solid #FFFFFF;
+    padding-right: 20px;
+    letter-spacing: 0.065em;
+/*    border: 1px solid white;*/ 
+}
+/*About me end*/
+
+/*Projects starts*/
+.works {
+    max-width: 1200px;
+    margin: auto;
+    height: 900px;
+} 
+.logo2{
+    text-align: center;
+    font-size: 60px;
+    margin-top: -50px;
+    margin-left: -25px;
+}
+
+.projtxt {
+    text-align: center;
+    font-size: 24px;
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    margin-left: 360px;
+    margin-top: 10px;
+    
+}
+.proj1 {
+    font-size: 0px;
+    margin-left:0px;
+    margin-top: -100px;
+    max-width: 300px;
+}
+.proj1:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.proj2 {
+    font-size: 0px;
+    margin-left: 360px;
+    margin-top: -520px;
+    max-width: 300px;
+}
+.proj2:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.proj3 {
+    font-size: 0px;
+    margin-left: 720px;
+    margin-top: -505px;
+    max-width: 300px;
+}
+.proj3:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.proj4 {
+    font-size: 0px;
+    margin-left: 0px;
+    margin-top: -200px;
+    max-width: 500px;  
+}
+.proj4:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.proj5 {
+    font-size: 0px;
+    margin-left: 360px;
+    margin-top: -520px;
+    max-width: 500px;  
+}
+.proj5:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.proj6 {
+    font-size: 0px;
+    margin-left: 720px;
+    margin-top: -505px;
+    max-width: 500px;  
+}
+.proj6:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+/*Projects end*/
+/*Contacts start*/
+.contacts {
+    margin: auto;
+    width: 1200px;
+    height: 150px; 
+} 
+.logo3{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+}
+.conttxt {
+    text-align: center;
+    font-size: 24px;
+    margin-left: 380px;
+    margin-top: 10px;
+    max-width: 450px;
+    width: 100%;
+    
+}
+.cnt1 {
+    font-size: 0px;
+    margin-left:0px;
+    margin-top: -100px;
+    max-width: 300px;
+}
+.cnt1:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.cnt2 {
+    font-size: 0px;
+    margin-left: 709px;
+    margin-top: -514px;
+    max-width: 300px;
+}
+.cnt2:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.cnt3 {
+    font-size: 0px;
+    margin-left: 490px;
+    margin-top: -398px;
+    max-width: 300px;
+}
+.cnt3:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.vk{
+    text-align: center;
+    font-size: 36px;
+    margin-left: 31px;
+    margin-top: -20px;
+    max-width: 450px;
+    width: 100%; 
+
+}
+
+.email{
+    text-align: center;
+    font-size: 36px;
+    margin-left: 387px;
+    margin-top: -45px;
+    max-width: 450px;
+    width: 100%;
+}
+.tg{
+    text-align: center;
+    font-size: 36px;
+    margin-left: 745px;
+    margin-top: -45px;
+    max-width: 450px;
+    width: 100%;
+}
+.goodbye {
+    margin-top: 150px;
+    text-align: right;
+    font-size: 24px;
+}
